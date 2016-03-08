@@ -2,6 +2,8 @@ require_relative( '../models/pokemon.rb' )
 require_relative( '../models/trainer.rb' )
 require_relative( '../models/owned_pokemon.rb' )
 
+# require( 'pry-byebug' )
+
 OwnedPokemon.delete_all
 Trainer.delete_all
 Pokemon.delete_all
@@ -41,3 +43,6 @@ entry4.save()
 entry5.save()
 entry6.save()
 entry7.save()
+
+# binding.pry
+# nil

@@ -1,6 +1,7 @@
+DROP TABLE OwnedPokemons;
 DROP TABLE Trainers;
 DROP TABLE Pokemons;
-DROP TABLE OwnedPokemons;
+
 
 CREATE TABLE Trainers (
   id serial4 primary key,
